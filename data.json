@@ -1,0 +1,269 @@
+{
+	"project": {
+		"slider":[
+			{
+				"picUrl": "http://wx2.sinaimg.cn/mw690/9cf0ac9bgy1fgtprdnon2j21de0fkjsq.jpg"
+			},
+			{
+				"picUrl": "http://wx1.sinaimg.cn/mw690/9cf0ac9bgy1fgtprfuankj21dc0cktcf.jpg"
+			},
+			{
+				"picUrl": "http://wx3.sinaimg.cn/mw690/9cf0ac9bgy1fgtprha6y5j21di0fowqs.jpg"
+			},
+			{
+				"picUrl": "http://wx3.sinaimg.cn/mw690/9cf0ac9bgy1fgtprdjd3fj21e60fowgq.jpg"
+			},
+			{
+				"picUrl": "http://wx2.sinaimg.cn/mw690/9cf0ac9bgy1fgtprd5ptkj21cg0fkq41.jpg"
+			}
+		],
+		"projectItem": [					
+			
+			{
+				"title": "项目01",
+				"list": [
+					{
+						"textLabel": "项目名称：",
+						"textValue": "两鲜官网"
+					}, {
+						"textLabel": "项目时间：",
+						"textValue": "2015年11月-2015年11月"
+					}, {
+						"textLabel": "软件环境：",
+						"textValue": "pc，Web浏览器"
+					}, {
+						"textLabel": "开发工具：",
+						"textValue": "sublime"
+					}
+				],
+				"areaText": [
+					{
+						"textLabel": "项目描述：",
+						"textValue": "基于互联网技术及冷链运输的服务供应商，主要提供水果,蔬菜,肉食,海鲜等产品。"
+					}, {
+						"textLabel": "责任描述：",
+						"textValue": "完成首页、分类导航、分类详情、商品详情等页面的搭建, 实现商品列表的动态渲染, 完成轮播图、滚动快报、搜索框、提示框显示隐藏、购物车添加删除等功能; 项目后期的维护和更新."
+					}
+				]
+			}
+		]
+		,
+		"noteInfo": [
+		{	
+			"imgUrl": "http://wx1.sinaimg.cn/thumb150/9cf0ac9bly1fgydj5wcutj20hq0egmxo.jpg",
+			"noteTitle": "Vue",
+			"noteAbs": "渐进式 JavaScript框架",
+			"noteDesc": "计算缓存: 1、计算属性是基于依赖缓存的，只有在相关的依赖发生改变时才会重新取值，就是说只有他依赖的这个新建vue对象的数据改变了，他才会重新取值计算，只要依赖的数据没有改变，他只会返回之前的计算结果。2、计算属性computed与methods比较，methods是无需依赖改变，即可调用的方法。如果不希望用缓存时，它可以代替计算属性. 3、计算属性computed与watch比较，watch会监听vue实例的某个数据变化，当监听的数据发生改变的时候，会调用此函数"
+		},
+		{	
+			"imgUrl": "http://wx1.sinaimg.cn/thumb150/9cf0ac9bly1fgydjc0ucbj207606u74q.jpg",
+			"noteTitle": "Bootstrap",
+			"noteAbs": "栅格系统原理非常简单，仅仅是通过定义容器大小，平分12份.再调整内外边距，最后结合媒体查询",
+			"noteDesc": "给列表添加.list-unstyled，可以去除默认列表样式风格。通过添加类名“.list-inline”来实现内联列表.Bootstrap可以给<dl>添加类名“.dl-horizontal”给定义列表实现水平显示效果。"
+		},
+		{	
+			"imgUrl": "http://wx2.sinaimg.cn/mw690/9cf0ac9bly1fgydjywk6rj20as078dg4.jpg",
+			"noteTitle": "jQuery",
+			"noteAbs": "事件代理，可以动态的添加事件, 只需要添加一次，不用添加在自己身上",
+			"noteDesc": ".delegate()有如下优点（或者说解决了.live()方法的如下问题）：直接将目标元素选择符（'td'）、事件（'click'）及处理程序与“受拖方”$('#info_table')绑定，不额外收集元素、事件传播路径缩短、语义明确；支持在连缀的DOM遍历方法后面调用，即支持$('table').find('#info').delegate.支持精确控制, .delegate()方法是一个相对完美的解决方案。在DOM结构简单的情况下，可以使用.live()。使用事件委托时，如果注册到目标元素上的其他事件处理程序使用.stopPropagation()阻止了事件传播，事件委托会失效。"
+		},
+		{	
+			"imgUrl": "http://wx2.sinaimg.cn/mw690/9cf0ac9bly1fgydk865udj20b407o750.jpg",
+			"noteTitle": "node",
+			"noteAbs": "运行在服务端的 JavaScript，是一个事件驱动I/O服务端JavaScript环境，基于Google的V8引擎，V8引擎执行Javascript的速度非常快，性能非常好。",
+			"noteDesc": "我们使用 http.createServer() 方法创建服务器，并使用 listen 方法绑定 8888 端口。 函数通过 request, response 参数来接收和响应数据。第一行请求（require）Node.js 自带的 http 模块，并且把它赋值给 http 变量。接下来我们调用 http 模块提供的函数： createServer 。这个函数会返回 一个对象，这个对象有一个叫做 listen 的方法，这个方法有一个数值参数， 指定这个 HTTP 服务器监听的端口号。"
+		},
+		{	
+			"imgUrl": "http://wx4.sinaimg.cn/mw690/9cf0ac9bly1fgydkdbyebj20ce0cygp9.jpg",
+			"noteTitle": "angular",
+			"noteAbs": "可以构建一个单一页面应用程序,AngularJS模块的配置函数用于配置路由规则。通过使用configAPI，我们请求把$ routeProvider注入到我们的配置函数并且使用$ routeProvider.whenAPI来定义我们的路由规则。",
+			"noteDesc": "1: 打开页面，浏览器开始解析，变成一个dom树 2: 解析到script src=‘angular.js’ 执行这里脚本 3: angular.js 事件监听 DomContentLoader dom 绘制完毕执行 4: dom 绘制完毕，启动angularjs 应用 5: 查找模块依赖关系 6: 找ng-app 指令，寻找应用的边界 7: 初始化angular 内部组件 $filter $rootScope $injecter $compile 8: 配置 config和运行 run 9: angularjs 开始去解析整个dom 树 10:编译整个dom树，搜集所有ng- 开头的指令 11:把每个指令编译成函数.12:处理dom 之间的转换，把指令进行解析调用。13：监听$scope 的变化，改变$scope 关联的控制器"
+		},
+		{	
+			"imgUrl": "http://wx2.sinaimg.cn/mw690/9cf0ac9bly1fgydkhg33bj20bs0bedgt.jpg",
+			"noteTitle": "requireJs",
+			"noteAbs": "模块化能使我们即使面对海量的代码还能很好的管理分工",
+			"noteDesc": "依据职责单一原则进行模块的划分，requireJs尽可能早的加载所有的模块依赖项.定义模块使用define([依赖项], function(){}.. 引用模块 需要在require的回调函数中 添加一个形参来接收这个模块提供的内容 , 通过调用 requirejs.config方法为requirejs做一些配置 .如果有依赖项，就需要通过shim属性为其配置依赖项,可以通过exports属性为这个非模块化的库设置返回内容"
+		},
+		{
+			"imgUrl": "http://wx4.sinaimg.cn/mw690/9cf0ac9bly1fgydkn0wggj20ei0fo40i.jpg",
+			"noteTitle": "JS中计时器的原理",
+			"noteAbs": "JS中定时器分为两种定时器,这两种定时器都是属于BOM下的Window对象的方法。",
+			"noteDesc": "延时定时器，它相当于一个定时炸弹,经过一段时间过后会触发的一个定时器,当触发完成后定时器就会自动销毁，只会触发一次。间歇定时器，就是当我们给其设定时间和一个回调函数后，它会每隔设定的时间去执行一次我们所设定的回调函数.只要我们不手动清除，它就会一直执行下去。直至浏览器窗口的关闭.浏览器线程我们都知道，js是单线程的，线程就是程序执行中一个单一的顺序控制流程，是程序执行流的最小单元。(也就是说，在同一个线程中程序执行流是一步一步的往下执行的,执行完上一步才会去执行下一步)。"
+		},
+		{
+			"imgUrl": "http://wx3.sinaimg.cn/thumb150/9cf0ac9bly1fgydqtg7q9j20ci096dg6.jpg",
+			"noteTitle": "关于继承",
+			"noteAbs": "js中的继承,js中实现继承的方式有很多种.",
+			"noteDesc": "简单原型链，根本原理就是通过构造函数实例化的对象可直接引用其原型中的成员。将空的构造函数的原型指向由Super创建的实例。这样，通过Sub创建的所有对象能直接访问Sub的原型中的内容了。而我们Sub构造函数本身却没有定义相应的成员。对sub1进行属性查找，找遍了实例属性（在本例中没有实例属性），没找到，就开始顺着原型链向上找，拿到了sub1的原型对象，一搜身，发现有arr属性。于是给arr末尾插入了2，所以sub2.arr也变了创建子类实例时，无法向父类构造函数传参这样写Sub只能继承自一个“父类”）"
+		},
+		{
+			"imgUrl": "http://wx3.sinaimg.cn/mw690/9cf0ac9bly1fgydkrl23jj20pu0aqdhf.jpg",
+			"noteTitle": "表单数据的传输问题",
+			"noteAbs": "说起提交方式，要提到的HTTP协议。HTTP协议请求格式分为四个模块，分别是：请求行、请求头、请求空行、请求体",
+			"noteDesc":"GET提交方式请求的数据会附加到url的后面，地址栏可以看到请求的数据内容。发送的数据量会比较少，而且，发送的数据相对来说比较不安全。但是它的数据提交效率比较快。所以，一般使用GET提交用来信息的获取操作.在保证安全性的前提下最大限度的提升网页的效率。POST提交方式，在设计的最初是用来修改服务器资源的，POST提交的数据不会显示在url中，是比较安全的。而且，post提交的数据量也是比GET提交的数据量要大。所以，我们一般利用POST提交方式来给服务器设发送数据，设置信息，或者数据量比较大的，安全要求比较高的信息."
+		},
+		{
+			"imgUrl": "http://wx4.sinaimg.cn/mw690/9cf0ac9bly1fgydkw5hexj20ig0ccmyx.jpg",
+			"noteTitle": "事件冒泡",
+			"noteAbs": "在js中事件的触发，会分为三个阶段:捕获阶段、目标阶段和冒泡阶段。",
+			"noteDesc": "当事件在目标节点上触发开始回流后，就进入了目标阶段。目标阶段事件会随着DOM树一层一层的向上冒泡，直至DOM根节点.事件代理是利用了我们js中的两种事件特性：事件冒泡和目标事件。给事件处理器添加到父辈元素上，当子辈元素被触发事件的时候，由于事件的冒泡，事件会回溯到父辈元素上，并且我们可以知道，事件是从哪一个子辈元素冒泡上来的。给父元素注册事件，从而避免了给每一个子元素添加事件。所以一旦子元素过多的时候，我们给其父元素添加事件就可以做到优化浏览器性能。"
+		},
+		{
+			"imgUrl": "http://wx3.sinaimg.cn/thumb150/9cf0ac9bly1fgydqyqiedj20aw09kt96.jpg",
+			"noteTitle": "原型链",
+			"noteAbs": "因为每个对象和原型都有原型，对象的原型指向原型对象，而父的原型又指向父的父，这种原型层层连接起来的就构成了原型链。",
+			"noteDesc": "1.使用对象访问属性的时候，如果在本身内找不到就会去原型中查找但是使用点语法进行属性赋值的时候，并不会去原型中进行查找使用点语法赋值的时候如果，对象中不存在该属性，就会给该对象新增该属性，而不会去修改原型中的属性。2.如果在原型中的属性是引用类型的属性， 那么所有的对象共享该属性，并且一个对象修改了该引用类型属性中的成员，其他对象也都会受影响3.一般情况下不会将属性放到原型对象中一般情况下原型中只会放需要共享的方法"
+		}
+	]
+	}
+	,
+	"contact": {
+			"avatarLabel": "头像", "avatarValue": "https://wx1.sinaimg.cn/orj360/9cf0ac9bgy1fgzteykelhj20a00cimxc.jpg",
+			"contactInfo": [
+			{"textLabel" : "E-mail：", "textValue" : "314496846@qq.com"},
+			{"textLabel" : "phone：", "textValue" : 18605577470},
+			{"textLabel" : "address：", "textValue" : "上海徐汇"},
+			{"textLabel" : "school：", "textValue" : "徽商职业学院"},
+			{"textLabel" : "major：", "textValue" : "计算机信息管理"},
+			{"textLabel" : "graduate：", "textValue" : "2014年7月"}
+		]
+	},
+	"info": {
+			"studyInfo": [
+			{"textLabel" : "毕业学校：", "textValue" : "徽商职业学院"},
+			{"textLabel" : "专业：", "textValue" : "计算机信息管理"},
+			{"textLabel" : "毕业年限：", "textValue" : "2014年7月"}
+		
+		]
+	},
+	"skill": {
+			"skillInfo": [
+	{
+		"textLabel": "HTML/CSS",
+		"textValue": [
+			{
+				"item": "div+css布局，结合Web标准、标签语义化和优化代码, 独立完成PC端网站前端的开发工作以及兼容性调试"
+			},
+			{
+				"item": "熟练使用html5与css3配合，在移动端实现与原生等效的视觉动画"
+			},
+			{
+				"item": "掌握flex布局, rem响应式布局与Less预编译进行移动端开发"
+			}
+		]
+	},
+	{
+		"textLabel": "Javascript",
+		"textValue": [
+			{
+				"item": "掌握原生JS操作BOM、DOM，手写原生JS代码、完成各种控件和js交互效果"
+			},
+			{
+				"item": "对javascript面向对象，原型链，继承，闭包有知识有一定的掌握"
+			},
+			{
+				"item": "运用Ajax技术，与后台开发工程师协作，完成操作交互、数据展现. 熟悉get、post请求、jsonp跨域"
+			}
+		]
+	},
+	{
+		"textLabel": "框架/库/插件",
+		"textValue": [
+			{
+				"item": "熟练使用jQuery，Zepto等库"
+			},
+			{
+				"item": "熟练使用各种插件，例如template、layer、swiper3，fullpages等"
+			},
+			{
+				"item": "熟练使用bootstrap，了解vue , angular框架，了解双向数据绑定，路由，模块化等思想"
+			},
+			{
+				"item": "运用RequireJS进行模块化开发，了解AMD/CMD开发规范"
+			}
+		]
+	},
+	{
+		"textLabel": "其他",
+		"textValue": [
+			{
+				"item": "了解后台语言NodeJS，并且具有简单的代码读写能力"
+			},
+			{
+				"item": "熟练使用代码管理工具git，svn，打包工具 webpack"
+			},
+			{
+				"item": "掌握SQL语句和SqlServer、MySql数据库的基本使用"
+			}
+		]
+	}
+]
+	},
+	"list": [
+		{
+			"id": 1,
+			"picUrl": "http://wx4.sinaimg.cn/thumb180/9cf0ac9bly1fgv39bm0p6j20c30eg74q.jpg",
+			"textLabel": "Javascript的this用法",
+			"textValue": "this是Javascript语言的一个关键字。它代表函数运行时，自动生成的一个内部对象，只能在函数内部使用"
+		},
+		{
+			"id": 2,
+			"picUrl": "http://wx4.sinaimg.cn/thumb180/9cf0ac9bly1fgv39bb93cj20c80ept9j.jpg",
+			"textLabel": "跨域资源共享 CORS",
+			"textValue": "它允许浏览器向跨源服务器，发出XMLHttpRequest请求，从而克服了AJAX只能同源使用的限制。"
+		},
+		{
+			"id": 3,
+			"picUrl": "http://wx4.sinaimg.cn/thumb180/9cf0ac9bly1fgv39c7u1hj20bk0bgq3y.jpg",
+			"textLabel": "《ECMAScript 6入门》",
+			"textValue": "ES6是JavaScript语言的下一个版本，预计将在2014年底正式发布。它对JavaScript做了大量改造，提高了灵活性和应用性，使得这门语言真正成为了企业级开发工具。"
+		},
+		{
+			"id": 4,
+			"picUrl": "http://wx2.sinaimg.cn/thumb180/9cf0ac9bly1fgv39bx4eij20c80840te.jpg",
+			"textLabel": "JavaScript 内存泄漏",
+			"textValue": "对于持续运行的服务进程（daemon），必须及时释放不再用到的内存。否则，内存占用越来越高，轻则影响系统性能，重则导致进程崩溃。"
+		},
+		{
+			"id": 5,
+			"picUrl": "https://wx1.sinaimg.cn/orj360/9cf0ac9bly1fgu38368wdj20dw09975x.jpg",
+			"textLabel": "Flex 布局",
+			"textValue": "弹性布局，用来为盒状模型提供最大的灵活性。"
+		}
+	],
+	"detail": [
+		{
+			"detail1": {
+				"textLabel": "Javascript的this用法",
+				"textValue": "<p>&nbsp;&nbsp;&nbsp;&nbsp;随着函数使用场合的不同，this的值会发生变化。但是有一个总的原则，那就是this指的是，调用函数的那个对象。下面分四种情况，详细讨论this的用法。</p><p>&nbsp;&nbsp;&nbsp;&nbsp;情况一：纯粹的函数调用这是函数的最通常用法，属于全局性调用，因此this就代表全局对象Global。</p><p>&nbsp;&nbsp;&nbsp;&nbsp;情况二：作为对象方法的调用函数还可以作为某个对象的方法调用，这时this就指这个上级对象。</p><p>&nbsp;&nbsp;&nbsp;&nbsp;情况三 作为构造函数调用所谓构造函数，就是通过这个函数生成一个新对象（object）。这时，this就指这个新对象。</p><p>&nbsp;&nbsp;&nbsp;&nbsp; 情况四 apply调用apply()是函数对象的一个方法，它的作用是改变函数的调用对象，它的第一个参数就表示改变后的调用这个函数的对象。因此，this指的就是这第一个参数。apply()的参数为空时，默认调用全局对象。"
+			}
+		},
+		{
+			"detail2": {
+				"textLabel": "跨域资源共享 CORS",
+				"textValue": "<p>&nbsp;&nbsp;&nbsp;&nbsp; 一、简介 CORS需要浏览器和服务器同时支持。目前，所有浏览器都支持该功能，IE浏览器不能低于IE10。整个CORS通信过程，都是浏览器自动完成，不需要用户参与。对于开发者来说，CORS通信与同源的AJAX通信没有差别，代码完全一样。浏览器一旦发现AJAX请求跨源，就会自动添加一些附加的头信息，有时还会多出一次附加的请求，但用户不会有感觉。因此，实现CORS通信的关键是服务器。只要服务器实现了CORS接口，就可以跨源通信。</p><p>&nbsp;&nbsp;&nbsp;&nbsp;二、两种请求浏览器将CORS请求分成两类：简单请求（simple request）和非简单请求（not-so-simple request）。</p><p>&nbsp;&nbsp;&nbsp;&nbsp;三、简单请求 3.1 基本流程对于简单请求，浏览器直接发出CORS请求。具体来说，就是在头信息之中，增加一个Origin字段。</p><p>&nbsp;&nbsp;&nbsp;&nbsp;四、非简单请求 非简单请求是那种对服务器有特殊要求的请求，比如请求方法是PUT或DELETE，或者Content-Type字段的类型是application/json。非简单请求的CORS请求，会在正式通信之前，增加一次HTTP查询请求，称为'预检'请求（preflight）。浏览器先询问服务器，当前网页所在的域名是否在服务器的许可名单之中，以及可以使用哪些HTTP动词和头信息字段。只有得到肯定答复，浏览器才会发出正式的XMLHttpRequest请求，否则就报错。</p><p>&nbsp;&nbsp;&nbsp;&nbsp;五、与JSONP的比较CORS与JSONP的使用目的相同，但是比JSONP更强大。JSONP只支持GET请求，CORS支持所有类型的HTTP请求。JSONP的优势在于支持老式浏览器，以及可以向不支持CORS的网站请求数据。</p>"
+			
+			}
+		},
+		{
+			"detail3": {
+				"textLabel": "《ECMAScript 6入门》",
+				"textValue": "<p>&nbsp;&nbsp;&nbsp;&nbsp;Promise 是异步编程的一种解决方案，比传统的解决方案——回调函数和事件——更合理和更强大。它由社区最早提出和实现，ES6将其写进了语言标准，统一了用法，原生提供了Promise对象。所谓Promise，简单说就是一个容器，里面保存着某个未来才会结束的事件（通常是一个异步操作）的结果。从语法上说，Promise 是一个对象，从它可以获取异步操作的消息。Promise 提供统一的 API，各种异步操作都可以用同样的方法进行处理。Promise对象有以下两个特点。</p><p>&nbsp;&nbsp;&nbsp;&nbsp;（1）对象的状态不受外界影响。Promise对象代表一个异步操作，有三种状态：Pending（进行中）、Resolved（已完成，又称 Fulfilled）和Rejected（已失败）。只有异步操作的结果，可以决定当前是哪一种状态，任何其他操作都无法改变这个状态。这也是Promise这个名字的由来，它的英语意思就是“承诺”，表示其他手段无法改变。</p><p>&nbsp;&nbsp;&nbsp;&nbsp;（2）一旦状态改变，就不会再变，任何时候都可以得到这个结果。Promise对象的状态改变，只有两种可能：从Pending变为Resolved和从Pending变为Rejected。只要这两种情况发生，状态就凝固了，不会再变了，会一直保持这个结果。如果改变已经发生了，你再对Promise对象添加回调函数，也会立即得到这个结果。这与事件（Event）完全不同，事件的特点是，如果你错过了它，再去监听，是得不到结果的。</p><p>&nbsp;&nbsp;&nbsp;&nbsp;有了Promise对象，就可以将异步操作以同步操作的流程表达出来，避免了层层嵌套的回调函数。此外，Promise对象提供统一的接口，使得控制异步操作更加容易。Promise也有一些缺点。首先，无法取消Promise，一旦新建它就会立即执行，无法中途取消。其次，如果不设置回调函数，Promise内部抛出的错误，不会反应到外部。第三，当处于Pending状态时，无法得知目前进展到哪一个阶段（刚刚开始还是即将完成）。如果某些事件不断地反复发生，一般来说，使用 Stream 模式是比部署Promise更好的选择。</p>"
+			}
+		},
+		{
+			"detail4": {
+				"textLabel": "JavaScript 内存泄漏",
+				"textValue": "<p>&nbsp;&nbsp;&nbsp;&nbsp;一、什么是内存泄漏？对于持续运行的服务进程（daemon），必须及时释放不再用到的内存。否则，内存占用越来越高，轻则影响系统性能，重则导致进程崩溃。不再用到的内存，没有及时释放，就叫做内存泄漏（memory leak）。有些语言（比如 C 语言）必须手动释放内存，程序员负责内存管理</p><p>&nbsp;&nbsp;&nbsp;&nbsp;二、垃圾回收机制 垃圾回收机制怎么知道，哪些内存不再需要呢？最常使用的方法叫做'引用计数'（reference counting）：语言引擎有一张'引用表'，保存了内存里面所有的资源（通常是各种值）的引用次数。如果一个值的引用次数是0，就表示这个值不再用到了，因此可以将这块内存释放。</p><p>&nbsp;&nbsp;&nbsp;&nbsp;三、内存泄漏的识别方法 怎样可以观察到内存泄漏呢？经验法则是，如果连续五次垃圾回收之后，内存占用一次比一次大，就有内存泄漏。这就要求实时查看内存占用。3.1 浏览器Chrome 浏览器查看内存占用，按照以下步骤操作。3.2 命令行命令行可以使用 Node 提供的process.memoryUsage方法。</p><p>&nbsp;&nbsp;&nbsp;&nbsp;四、WeakMap 前面说过，及时清除引用非常重要。但是，你不可能记得那么多，有时候一疏忽就忘了，所以才有那么多内存泄漏。最好能有一种方法，在新建引用的时候就声明，哪些引用必须手动清除，哪些引用可以忽略不计，当其他引用消失以后，垃圾回收机制就可以释放内存。这样就能大大减轻程序员的负担，你只要清除主要引用就可以了。ES6 考虑到了这一点，推出了两种新的数据结构：WeakSet 和 WeakMap。它们对于值的引用都是不计入垃圾回收机制的，所以名字里面才会有一个'Weak'，表示这是弱引用。</p>"
+			}
+		},
+		{
+			"detail5": {
+				"textLabel": "Flex 布局",
+				"textValue": "<p>&nbsp;&nbsp;&nbsp;&nbsp;采用 Flex 布局的元素，称为 Flex 容器（flex container），简称'容器'。它的所有子元素自动成为容器成员，称为 Flex 项目（flex item），简称'项目', 容器默认存在两根轴：水平的主轴（main axis）和垂直的交叉轴（cross axis）。主轴的开始位置（与边框的交叉点）叫做main start，结束位置叫做main end；交叉轴的开始位置叫做cross start，结束位置叫做cross end。项目默认沿主轴排列。单个项目占据的主轴空间叫做main size，占据的交叉轴空间叫做cross size。</p><p>&nbsp;&nbsp;&nbsp;&nbsp;3.1 flex-direction属性决定主轴的方向（即项目的排列方向）。</p><p>&nbsp;&nbsp;&nbsp;&nbsp;3.2 flex-wrap属性 默认情况下，项目都排在一条线（又称'轴线'）上。flex-wrap属性定义，如果一条轴线排不下，如何换行。</p><p>&nbsp;&nbsp;&nbsp;&nbsp;3.3 flex-flow 属性是flex-direction属性和flex-wrap属性的简写形式，默认值为row nowrap。</p><p>&nbsp;&nbsp;&nbsp;&nbsp;3.4 justify-content 属性定义了项目在主轴上的对齐方式。</p><p>&nbsp;&nbsp;&nbsp;&nbsp;3.5 align-items 属性定义项目在交叉轴上如何对齐。</p><p>&nbsp;&nbsp;&nbsp;&nbsp;3.6 align-content 属性定义了多根轴线的对齐方式。如果项目只有一根轴线，该属性不起作用。</p>"
+			}
+		}
+	]
+	
+}
